@@ -1,0 +1,17 @@
+create table user_records (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+	first_name VARCHAR(50),
+	last_name VARCHAR(50),
+	email VARCHAR(50),
+	gender VARCHAR(50),
+	age INT,
+	job_position VARCHAR(50),
+	location VARCHAR(50),
+	date_added TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+	
+);
+insert into user_records (first_name, last_name, email, gender, age, job_position, location) values ('Lindy', 'McPheat', 'lmcpheat0@simplemachines.org', 'Female', 22, 'Back-End Developer', 'Manila');
+insert into user_records (first_name, last_name, email, gender, age, job_position, location) values ('Carri', 'Nanelli', 'cnanelli1@theatlantic.com', 'Female', 21, 'Full-stack Developer', 'Cavite');
+insert into user_records (first_name, last_name, email, gender, age, job_position, location) values ('Janeta', 'Gregs', 'jgregs2@psu.edu', 'Female', 32, 'Back-End Developer', 'London');
+insert into user_records (first_name, last_name, email, gender, age, job_position, location) values ('Benny', 'McWaters', 'bmcwaters3@symantec.com', 'Female', 29, 'Quality Assurance Specialist', 'New York');
+insert into user_records (first_name, last_name, email, gender, age, job_position, location) values ('Anitra', 'MacGuiness', 'amacguiness4@addthis.com', 'Female', 35, 'Front-End Developer', 'California');
